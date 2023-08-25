@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter, FaTwitterSquare} from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assests/logo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -21,8 +23,8 @@ const Navbar = () => {
             </ul>
       
                         {/* Hamburger menu*/}
-        <div onclick={handleClick} className=' md:hidden z-10 cursor-pointer'>
-            <FaBars />
+        <div onClick={handleClick} className=' md:hidden z-10 mr-2 cursor-pointer'>
+            {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
                           {/* Mobile Menu*/}
@@ -34,7 +36,41 @@ const Navbar = () => {
             </ul>
 
                           {/* Social Icons  */}
-        <div className='hidden'>
+        <div  className='hidden fixed lg:flex flex-col top-[35%] left-0'>
+            <ul>
+                <li className='w-[160px] -ml-28 hover:-ml-1 duration-500 bg-blue-700 p-1 shadow-md rounded-md font-serif'>
+                   <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                     Linkedin <FaLinkedin size={30} /> 
+                  </a>
+                </li>
+                
+                <li className='w-[160px] -ml-28 hover:-ml-1 duration-500 rounded-md bg-sky-700 p-1 shadow-md font-serif'>
+                   <a className='flex justify-between items-center w-full text-gray-300' href='https://twitter.com/Phoenixhary' target='_blank'>
+                     Twitter <FaTwitter size={30} /> 
+                  </a>
+                </li>
+
+                <li className='w-[160px] -ml-28 hover:-ml-0 duration-500 bg-gray-800 p-1 rounded-md shadow-md font-serif'>
+                   <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/Phoenixhary' target='_blank'>
+                     Github <FaGithub size={30} /> 
+                  </a>
+                </li>
+                
+                <li className='w-[160px] -ml-28 hover:-ml-1 duration-500 bg-red-800 p-1 rounded-md shadow-md font-serif'>
+                   <a className='flex justify-between items-center w-full text-gray-300' href='mailto: borokinniburhan@gmail.com' target='_blank'>
+                     Email <HiOutlineMail size={30} /> 
+                  </a>
+                </li>
+                
+                <li className='w-[160px] -ml-28 hover:-ml-1 duration-500 rounded-md bg-green-700 p-1 shadow-md font-serif'>
+                   <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                     Resume <BsFillPersonLinesFill size={30} /> 
+                  </a>
+                </li>
+                
+                
+                
+            </ul>
 
         </div>
 
