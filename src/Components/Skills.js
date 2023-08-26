@@ -8,14 +8,14 @@ import Reaxt from '../assests/react.png'
 
 const Skills = () => {
     return ( 
-                <div name='Skills' className="bg-slate-900 text-gray-300 w-full h-screen ">
+                <div name='skills' className="bg-slate-900 text-gray-300 w-full h-screen pl-4">
                     <div className="flex flex-col justify-center w-full h-full max-w-4xl mx-auto">
                         <div>
                         <p className="text-4xl font-bold border-b-2 border-emerald-900 inline">Skills</p>
-                        <p className="py-4"> Here are my technical skills i can work with</p>
+                        <p className="py-4"> Here are the technical skills i can work with</p>
                         </div>
 
-                  <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-5 py-8 text-center">
+                  <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-5 py-8 text-center font-serif">
 
                                              {/* Grid skills - Container */}
                                              

@@ -7,16 +7,16 @@ const Work = () => {
     return ( 
     <div name='work' className="bg-slate-900 text-gray-300 w-full md:h-screen">
 
-         <div className="w-full h-full flex flex-col justify-center mx-auto max-w-4xl p-4">
+         <div className="w-full h-full flex flex-col justify-center mx-auto max-w-4xl p-4 pt-10">
             <div className="pb-8">
                 <p className="text-4xl font-bold border-b-2 inline border-emerald-900">Work</p>
                 <p className="py-6"> Check out some of my work</p>
             </div>
                                         {/*Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 ">
 
                         {/* Card - Container */}  {/* Project -1 */}
-            <div style={{backgroundImage:`url(${Workimg})` }} className="shadow-lg shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-md content-div">
+            <div style={{backgroundImage:`url(${Workimg})` }} className="shadow-md shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
 
                                 {/* Hover - Container */}
                 <div className="opacity-0 group-hover:opacity-100">
@@ -37,7 +37,7 @@ const Work = () => {
                 </div>
             </div>
                                             {/* Project -2 */}
-            <div style={{backgroundImage:`url(${Crowdfund})` }} className=" shadow-lg shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-md content-div">
+            <div style={{backgroundImage:`url(${Crowdfund})` }} className=" shadow-lg shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
 
                                 {/* Hover - Container */}
                 <div className="opacity-0 group-hover:opacity-100">
@@ -58,7 +58,7 @@ const Work = () => {
                 </div>
             </div>
                                              {/* Project -3 */}
-            <div style={{backgroundImage:`url(${Resume})` }} className=" shadow-lg shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-md content-div">
+            <div style={{backgroundImage:`url(${Resume})` }} className=" shadow-md  shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
 
                                 {/* Hover - Container */}
                 <div className="opacity-0 group-hover:opacity-100">
