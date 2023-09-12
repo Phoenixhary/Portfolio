@@ -1,7 +1,7 @@
 import React from "react";
 import Workimg from '../assests/workimg.jpg'
 import Crowdfund from '../assests/crowdfund.jpg'
-import Resume from '../assests/resume.jpg'
+import vacation from '../assests/Vacation.jpg'
 
 const Work = () => {
     return ( 
@@ -58,20 +58,20 @@ const Work = () => {
                 </div>
             </div>
                                              {/* Project -3 */}
-            <div style={{backgroundImage:`url(${Resume})` }} className=" shadow-md  shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
+            <div style={{backgroundImage:`url(${vacation})` }} className=" shadow-md shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
 
                                 {/* Hover - Container */}
                 <div className="opacity-0 group-hover:opacity-100">
                     <span className="text-2xl font-bold text-white tracking-wider">
-                        Tailwind CSS Website
+                        React JS Application
                     </span>
 
                     <div className=" text-center pt-8">
-                        <a href="https://phoenixhary.netlify.app/" target="_blank">
+                        <a href="https://travel-vacation.netlify.app" target="_blank">
                             <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3"> Demo </button>
                         </a>
                     
-                        <a href="https://github.com/Phoenixhary/crypto-cv" target="_blank">
+                        <a href="https://github.com/Phoenixhary/Travel" target="_blank">
                             <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3 mx-2"> Code </button>
                         </a>
                     </div>
