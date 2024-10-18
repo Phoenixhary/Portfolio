@@ -3,7 +3,7 @@ import HTML from '../assests/html.png'
 import CSS from '../assests/css.png'
 import Javascript from '../assests/javascript.png'
 import Tailwind from '../assests/tailwind.png'
-import Github from '../assests/github.png'
+import Github from '../assests/nextjs.svg'
 import Reaxt from '../assests/react.png'
 import Mui from '../assests/Mui.png'
 import Example from "./Example";
@@ -33,8 +33,8 @@ const Skills = () => {
                             </div>
         
                             <div className="shadow-sm shadow-slate-700 duration-700 pt-2 bg-slate-800 hover:bg-slate-800 hover:scale-90">
-                                <img className="w-20 mx-auto " src={Github} alt="Github" />
-                                <p className="my-3"> Github </p>
+                                <img className="w-20 mx-auto " src={Github} alt="Next" />
+                                <p className="my-3"> Nextjs </p>
                             </div>
         
                             <div className="shadow-sm shadow-slate-700 duration-700 pt-2 bg-slate-800 hover:bg-slate-800 hover:scale-90">

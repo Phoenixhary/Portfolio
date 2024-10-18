@@ -76,7 +76,7 @@ const Navbar = () => {
                 </li>
                 
                 <li className='lg:w-[160px] w-18 lg:-ml-28 hover:scale-95 lg:hover:scale-100 hover:-ml-1 duration-500 rounded-md bg-green-700 p-1 shadow-md font-serif'>
-                   <a className='lg:flex justify-between items-center w-full text-gray-300' href='https://docs.google.com/file/d/12E5jDp-yZs8uPX2pKkX1LZruBVD6_VIS/edit?filetype=msword&pli=1' target='_blank'>
+                   <a className='lg:flex justify-between items-center w-full text-gray-300' href='https://docs.google.com/document/d/1ypcz9ZcoABZVN0qbSzGjJm5WXihN4XgtDZaJFsC0GEI/edit' target='_blank'>
                      Resume <BsFillPersonLinesFill size={30} className='mx-auto lg:m-0' /> 
                   </a>
                 </li>

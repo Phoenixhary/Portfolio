@@ -21,26 +21,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 ">
 
                         {/* Card - Container */}  {/* Project -1 */}
-            <div style={{backgroundImage:`url(${Workimg})` }} className="shadow-md shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
-
-                                {/* Hover - Container */}
-                <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl font-bold text-white tracking-wider">
-                        React JS Application
-                    </span>
-
-                    <div className=" text-center pt-8">
-                        <a href="https://phoenix-image-gallery.netlify.app" target="_blank">
-                            <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3"> Demo </button>
-                        </a>
-                    
-                        <a href="https://github.com/Phoenixhary/C-ImageGallery" target="_blank">
-                            <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3 mx-2"> Code </button>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
+           
                                             {/* Project -2 */}
             <div style={{backgroundImage:`url(${Social})`, }} className=" shadow-lg shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
 
@@ -51,11 +32,11 @@ const Work = () => {
                     </span>
 
                     <div className=" text-center pt-8">
-                        <a href="https://web3social.netlify.app/" target="_blank">
+                        <a href="https://px-shopify.vercel.app/" target="_blank">
                             <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3"> Demo </button>
                         </a>
                     
-                        <a href="https://github.com/Phoenixhary/SocialApp" target="_blank">
+                        <a href="https://github.com/Phoenixhary/PxShopify" target="_blank">
                             <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3 mx-2"> Code </button>
                         </a>
                     </div>
@@ -84,26 +65,7 @@ const Work = () => {
                 </div>
             </div>
                                             {/* Project -4 */}
-            <div style={{backgroundImage:`url(${Pad})`, }} className=" shadow-lg shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
-
-                                {/* Hover - Container */}
-                <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl font-bold text-white tracking-wider">
-                        React JS Application
-                    </span>
-
-                    <div className=" text-center pt-8">
-                        <a href="https://connectpadd.netlify.app/" target="_blank">
-                            <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3"> Demo </button>
-                        </a>
-                    
-                        <a href="https://github.com/Phoenixhary/Connectpad" target="_blank">
-                            <button className="bg-white font-bold text-lg rounded-lg text-center py-2 text-gray-700 px-3 mx-2"> Code </button>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
+                                            
                                              {/* Project -5 */}
             <div style={{backgroundImage:`url(${vacation})` }} className=" shadow-md shadow-slate-800 flex justify-center items-center group container  mx-auto rounded-xl content-div">
 
